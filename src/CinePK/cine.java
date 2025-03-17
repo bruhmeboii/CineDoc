@@ -67,4 +67,12 @@ public class cine {
 	public void setNingunparametro(int ningunparametro) {
 		this.ningunparametro = ningunparametro;
 	}
+	public int butacasLibres(int aforo, int butacasOcupadas) {
+		int butacasLibres=aforo-butacasOcupadas;
+		return butacasLibres ;
+	}
+	public int porcentajeOcupacion(int aforo, int butacasOcupadas) {
+		int porcentaje=(butacasOcupadas/aforo)*100;
+		return porcentaje;
+	}
 }
