@@ -75,4 +75,14 @@ public class cine {
 		int porcentaje=(butacasOcupadas/aforo)*100;
 		return porcentaje;
 	}
+	public int ingresosSala(int precioEntradas, int butacasOcupadas) {
+		int ingresos= precioEntradas*butacasOcupadas;
+		return ingresos;
+	}
+	public void venderEntrada(int butacasOcupadas) {
+		boolean venderEntrada=false;
+		if (venderEntrada==true) {
+			butacasOcupadas++;
+		}
+	}
 }
